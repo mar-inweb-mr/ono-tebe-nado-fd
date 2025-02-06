@@ -176,6 +176,10 @@ h1 {
     
 }
 
+.card-link {
+    text-decoration: none;
+  }
+
 .card_type_film {
     position: relative;
     z-index: 0;
