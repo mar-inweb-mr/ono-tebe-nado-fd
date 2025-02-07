@@ -246,7 +246,8 @@
     padding: 120px 24px 0 24px;
 }
 
-.about_logo { 
+.about_logo  { 
+    
     position: relative;
     top: 35px;
     left: 47px;
@@ -257,6 +258,7 @@
     height: 240px;
     border-radius: 50%;
     background-color: black;
+
 }
 
 .about__logo-image {
