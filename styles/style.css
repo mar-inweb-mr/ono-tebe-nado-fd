@@ -18,8 +18,6 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 21,13px;
-
-
 }
 
 .header__links-list-item_no-bullit {
@@ -31,7 +29,7 @@
     background-image: url(images/logo-black.svg);
 }
 
-.logo {
+.header__logo {
     width: 148px;
     height: 105px;
 }
@@ -54,39 +52,6 @@
    text-underline-position: from-font;
 }
 
-h1 {
-   position: relative;
-   z-index: 1;
-   text-align: center;
-   font-size: 100px;
-   color:#ffffff;
-   font-family: "Raleway", sans-serif;
-}
-
-.word-ОНО {
-    position: absolute;
-    margin-top: 165px;
-    margin-bottom: 477px;
-    margin-left: 50px;
-    margin-right: 764px;
-    
-    
-    }
-
-.word-ТЕБЕ {
-    position: absolute;
-    margin-top: 300px;
-    margin-left: 380px;
-    
-    }
-
-.word-НАДО {
-    position: absolute;
-    margin-top: 435px;
-    margin-left: 663px;
-}
-
-
 .cover {
     position: relative;
     z-index: 0;
@@ -96,6 +61,50 @@ h1 {
     background-repeat: no-repeat;
 
 }
+
+.cover__title {
+    position: relative;
+    z-index: 1;
+    padding: 165px 20px 0 50px;
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+.accent__span {
+    display: block;
+  }
+  
+  .aligned__text__center {
+    text-align: center;
+  }
+  
+  .aligned__text__right {
+    text-align: right;
+  }
+
+  .cover_description {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    color: #ffffff;
+    
+}
+
+.cover__description-text {
+    position: absolute;
+    justify-self: start;
+    word-spacing: 22px;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 50px;
+    top:656px;
+    font-family: "Raleway", sans-serif;
+  }
 
 .bet_button {
     position: absolute;
@@ -113,14 +122,6 @@ h1 {
 
 }
 
-.cover_description {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    align-items: center;
-    color: #ffffff;
-    
-}
-
 .overlay {
     position: absolute;
     inset: 0;
@@ -131,17 +132,7 @@ h1 {
     background-color: rgb(0, 0, 0);
 }
 
-.cover__description-text {
-    position: absolute;
-    justify-self: start;
-    word-spacing: 22px;
-    font-size: 22px;
-    font-weight: 400;
-    text-transform: uppercase;
-    margin-left: 50px;
-    top:656px;
-    font-family: "Raleway", sans-serif;
-  }
+
 
 .lots {
     box-sizing: border-box;
@@ -323,7 +314,7 @@ h1 {
 }
 
 .footer__menu-link_active {
-    text-decoration:none;
+    text-decoration: none;
 }
 
 .footer__social-list {
@@ -342,4 +333,5 @@ h1 {
     justify-self: start;
     text-align: left;
     color: black;
+    
 }

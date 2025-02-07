@@ -24,10 +24,13 @@
           </li>
         </ul>
       </nav>
-      <a class="logo">
-        <img src="images/logo-black.svg" alt="Логотип" />
+      <a class="header__logo">
+        <img 
+        class="header__logo-image"
+        src="images/logo-black.svg" 
+        alt="Логотип" />
       </a>
-      <address class="address">
+      <address class="address header__address">
         <a href="tel:+90000000">+9 999 555 5555</a>
         <br>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
@@ -36,15 +39,11 @@
     </header>
     <main>
       <section class="cover">
-        <span class="word-ОНО">
-          <h1>О Н О</h1>
-        </span>
-        <span class="word-ТЕБЕ">
-          <h1>Т Е Б Е</h1>
-        </span>
-        <span class="word-НАДО">
-          <h1>Н А Д О</h1>
-        </span>
+        <h1 class="cover__title no__letter__spacing">
+         <span class="accent_span">ОНО</span>
+         <span class="accent__span aligned__text__center">ТЕБЕ</span>
+         <span class="accent__span aligned__text__right">НАДО</span>
+        </h1>
         <div class="overlay"></div>
         <div class="cover_description">
           <p class="cover__description-text"> АУКЦИОН ВЕЩЕЙ В КОТОРЫЕ НИКТО НЕ ВЕРИЛ </p>
