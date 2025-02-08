@@ -295,7 +295,7 @@
 
 .footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     align-items: start;
     box-sizing: border-box;
     padding: 180px 50px 82px;
