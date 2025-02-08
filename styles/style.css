@@ -76,6 +76,7 @@
 
 .accent__span {
     display: block;
+    padding: 20px;
   }
   
   .aligned__text__center {
@@ -102,7 +103,7 @@
     font-weight: 400;
     text-transform: uppercase;
     margin-left: 50px;
-    top:656px;
+    top:668px;
     font-family: "Raleway", sans-serif;
   }
 
