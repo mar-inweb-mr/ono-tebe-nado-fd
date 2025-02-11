@@ -232,7 +232,7 @@
 }
 
 .about_logo {
-    position: relative;
+    position: relative;  
     margin-top: 35px; 
     margin-left: 47px;
     display: flex;
