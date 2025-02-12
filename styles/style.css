@@ -104,7 +104,6 @@
     font-weight: 400;
     text-transform: uppercase;
     margin-left: 50px;
-    top:668px;
     font-family: "Raleway", sans-serif;
 }
 
@@ -117,7 +116,6 @@
     color: #ffffff;
     font-size: 22px;
     font-weight: 500;
-    top:656px;
     background-color: transparent;
     margin-right:50px;
 
@@ -296,10 +294,6 @@
 
 .footer__menu-list-item {
     list-style-type: none;
-}
-
-.link_active {
-    text-decoration: none;
 }
 
 .footer__social-list {
